@@ -8,7 +8,13 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body> <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(() => console.log('Service Worker Registered'))
+    .catch(err => console.log('SW registration failed', err));
+}
+</script>
 <h1>🧠 Hidden Brain Challenge</h1>
 <p id="level">Level 1</p>
 
