@@ -1,0 +1,16 @@
+{
+  "name": "Hidden Brain Challenge",
+  "short_name": "BrainGame",
+  "description": "Test your brain! Find hidden objects in the picture and complete levels.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff9800",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
