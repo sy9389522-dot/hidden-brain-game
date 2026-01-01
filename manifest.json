@@ -1,0 +1,8 @@
+{
+  "name": "Hidden Brain Game",
+  "short_name": "BrainGame",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff9800"
+}
